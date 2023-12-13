@@ -1,0 +1,11 @@
+D:\Users\Tanner\Desktop\Work\Programming\Modding\LethalCompany\ForestGiantMotionsense\bin\Debug\netstandard2.1\ForestGiantMotionsense.deps.json
+D:\Users\Tanner\Desktop\Work\Programming\Modding\LethalCompany\ForestGiantMotionsense\bin\Debug\netstandard2.1\ForestGiantMotionsense.dll
+D:\Users\Tanner\Desktop\Work\Programming\Modding\LethalCompany\ForestGiantMotionsense\bin\Debug\netstandard2.1\ForestGiantMotionsense.pdb
+D:\Users\Tanner\Desktop\Work\Programming\Modding\LethalCompany\ForestGiantMotionsense\obj\Debug\netstandard2.1\ForestGiantMotionsense.csproj.AssemblyReference.cache
+D:\Users\Tanner\Desktop\Work\Programming\Modding\LethalCompany\ForestGiantMotionsense\obj\Debug\netstandard2.1\PluginInfo.cs
+D:\Users\Tanner\Desktop\Work\Programming\Modding\LethalCompany\ForestGiantMotionsense\obj\Debug\netstandard2.1\ForestGiantMotionsense.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\Tanner\Desktop\Work\Programming\Modding\LethalCompany\ForestGiantMotionsense\obj\Debug\netstandard2.1\ForestGiantMotionsense.AssemblyInfoInputs.cache
+D:\Users\Tanner\Desktop\Work\Programming\Modding\LethalCompany\ForestGiantMotionsense\obj\Debug\netstandard2.1\ForestGiantMotionsense.AssemblyInfo.cs
+D:\Users\Tanner\Desktop\Work\Programming\Modding\LethalCompany\ForestGiantMotionsense\obj\Debug\netstandard2.1\ForestGiantMotionsense.csproj.CoreCompileInputs.cache
+D:\Users\Tanner\Desktop\Work\Programming\Modding\LethalCompany\ForestGiantMotionsense\obj\Debug\netstandard2.1\ForestGiantMotionsense.dll
+D:\Users\Tanner\Desktop\Work\Programming\Modding\LethalCompany\ForestGiantMotionsense\obj\Debug\netstandard2.1\ForestGiantMotionsense.pdb

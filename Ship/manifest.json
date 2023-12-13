@@ -1,0 +1,8 @@
+{
+    "name": "Forest_Giant_Motionsense",
+    "version_number": "1.0.0",
+    "website_url": "",
+    "description": "Make forest giants only sense motion outside of chases!",
+    "dependencies": [
+    ]
+}
