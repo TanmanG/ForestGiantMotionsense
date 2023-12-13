@@ -1,4 +1,3 @@
-##
 # **Forest Giant Motionsense**
 
 ## **Add a little counterplay to Forest Giants!**
