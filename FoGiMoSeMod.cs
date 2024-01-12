@@ -12,8 +12,12 @@ namespace ForestGiantMotionsense
     [BepInPlugin(PluginInfo.PLUGIN_GUID, PluginInfo.PLUGIN_NAME, PluginInfo.PLUGIN_VERSION)]
     public class FoGiMoSeMod : BaseUnityPlugin
     {
+	    private static FoGiMoSeMod Instance;
         private void Awake()
         {
+	        // Store a debug instance
+	        Instance = this;
+	        
             // Plugin startup logic
             Logger.LogInfo($"Plugin {PluginInfo.PLUGIN_GUID} is loaded!");
             Harmony.CreateAndPatchAll(typeof(FoGiMoSeMod));
@@ -36,8 +40,11 @@ namespace ForestGiantMotionsense
                                  new CodeMatch(OpCodes.Ldelem_Ref),
                                  new CodeMatch(OpCodes.Stloc_S))
                    .Advance(1);
+            // Assertion for patch success
+            if (matcher.Remaining == 0) Instance.Logger.LogFatal("Could not find first LookForPlayers patch, flagging to abort!");
             // Store the branch target instruction
             Label labelBranchTarget = matcher.Instruction.labels.First(); // Create the branch target
+            
             matcher.MatchBack(false,
                             new CodeMatch(OpCodes.Ldarg_0),
                             new CodeMatch(OpCodes.Ldfld),
@@ -45,6 +52,8 @@ namespace ForestGiantMotionsense
                             new CodeMatch(OpCodes.Ldelem_R4),
                             new CodeMatch(OpCodes.Ldloc_S),
                             new CodeMatch(OpCodes.Ble_Un));
+            // Assertion for patch success
+            if (matcher.Remaining == 0) Instance.Logger.LogFatal("Could not find second LookForPlayers patch, flagging to abort!");
             
             // Cache the load ops
             CodeInstruction loadIndexTwo = matcher.Advance(2).Instruction;
@@ -99,7 +108,7 @@ namespace ForestGiantMotionsense
         [HarmonyTranspiler]
         private static IEnumerable<CodeInstruction> TimeSinceMovePatch(IEnumerable<CodeInstruction> instructions)
         {
-            return new CodeMatcher(instructions)
+            CodeMatcher matcher = new CodeMatcher(instructions)
                   .MatchForward(true,
                                 new CodeMatch(OpCodes.Ldarg_0), 
                                 new CodeMatch(OpCodes.Ldfld),
@@ -108,13 +117,18 @@ namespace ForestGiantMotionsense
                                 new CodeMatch(OpCodes.Ldfld),
                                 new CodeMatch(OpCodes.Ldc_I4_1),
                                 new CodeMatch(OpCodes.Add),
-                                new CodeMatch(OpCodes.Stfld))
-                  .InsertAndAdvance(new CodeInstruction(OpCodes.Ldarg_0), // Patch in the reset of the player moving variable
+                                new CodeMatch(OpCodes.Stfld));
+            
+            // Assertion for patch success
+            if (matcher.Remaining == 0) Instance.Logger.LogFatal("Could not find UpdatePlayerPositionClientRPC patch location, flagging to abort!");
+	        
+            matcher.InsertAndAdvance(new CodeInstruction(OpCodes.Ldarg_0), // Patch in the reset of the player moving variable
                                     new CodeInstruction(OpCodes.Ldc_R4, 0f),
                                     new CodeInstruction(OpCodes.Stfld, 
                                                         typeof(PlayerControllerB).GetField("timeSincePlayerMoving", 
-                                                                                           BindingFlags.Public | BindingFlags.Instance)))
-                  .InstructionEnumeration();
+                                                                                           BindingFlags.Public | BindingFlags.Instance)));
+	        
+            return matcher.InstructionEnumeration();
         }
     }
 }

@@ -9,3 +9,14 @@ D:\Users\Tanner\Desktop\Work\Programming\Modding\LethalCompany\ForestGiantMotion
 D:\Users\Tanner\Desktop\Work\Programming\Modding\LethalCompany\ForestGiantMotionsense\obj\Debug\netstandard2.1\ForestGiantMotionsense.csproj.CoreCompileInputs.cache
 D:\Users\Tanner\Desktop\Work\Programming\Modding\LethalCompany\ForestGiantMotionsense\obj\Debug\netstandard2.1\ForestGiantMotionsense.dll
 D:\Users\Tanner\Desktop\Work\Programming\Modding\LethalCompany\ForestGiantMotionsense\obj\Debug\netstandard2.1\ForestGiantMotionsense.pdb
+C:\Users\tgood\RiderProjects\LethalCompany-ForestGiantMotionsense\bin\Debug\netstandard2.1\ForestGiantMotionsense.deps.json
+C:\Users\tgood\RiderProjects\LethalCompany-ForestGiantMotionsense\bin\Debug\netstandard2.1\ForestGiantMotionsense.dll
+C:\Users\tgood\RiderProjects\LethalCompany-ForestGiantMotionsense\bin\Debug\netstandard2.1\ForestGiantMotionsense.pdb
+C:\Users\tgood\RiderProjects\LethalCompany-ForestGiantMotionsense\obj\Debug\netstandard2.1\ForestGiantMotionsense.csproj.AssemblyReference.cache
+C:\Users\tgood\RiderProjects\LethalCompany-ForestGiantMotionsense\obj\Debug\netstandard2.1\PluginInfo.cs
+C:\Users\tgood\RiderProjects\LethalCompany-ForestGiantMotionsense\obj\Debug\netstandard2.1\ForestGiantMotionsense.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tgood\RiderProjects\LethalCompany-ForestGiantMotionsense\obj\Debug\netstandard2.1\ForestGiantMotionsense.AssemblyInfoInputs.cache
+C:\Users\tgood\RiderProjects\LethalCompany-ForestGiantMotionsense\obj\Debug\netstandard2.1\ForestGiantMotionsense.AssemblyInfo.cs
+C:\Users\tgood\RiderProjects\LethalCompany-ForestGiantMotionsense\obj\Debug\netstandard2.1\ForestGiantMotionsense.csproj.CoreCompileInputs.cache
+C:\Users\tgood\RiderProjects\LethalCompany-ForestGiantMotionsense\obj\Debug\netstandard2.1\ForestGiantMotionsense.dll
+C:\Users\tgood\RiderProjects\LethalCompany-ForestGiantMotionsense\obj\Debug\netstandard2.1\ForestGiantMotionsense.pdb
