@@ -2684,20 +2684,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\tgood\\.nuget\\packages\\": {}
+    "C:\\Users\\tgood.DESKTOP-DK3AJDA\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tgood\\RiderProjects\\LethalCompany-ForestGiantMotionsense\\ForestGiantMotionsense.csproj",
+      "projectUniqueName": "D:\\Users\\Tanner\\Desktop\\Work\\Programming\\Modding\\LethalCompany\\ForestGiantMotionsense\\ForestGiantMotionsense.csproj",
       "projectName": "ForestGiantMotionsense",
-      "projectPath": "C:\\Users\\tgood\\RiderProjects\\LethalCompany-ForestGiantMotionsense\\ForestGiantMotionsense.csproj",
-      "packagesPath": "C:\\Users\\tgood\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tgood\\RiderProjects\\LethalCompany-ForestGiantMotionsense\\obj\\",
+      "projectPath": "D:\\Users\\Tanner\\Desktop\\Work\\Programming\\Modding\\LethalCompany\\ForestGiantMotionsense\\ForestGiantMotionsense.csproj",
+      "packagesPath": "C:\\Users\\tgood.DESKTOP-DK3AJDA\\.nuget\\packages\\",
+      "outputPath": "D:\\Users\\Tanner\\Desktop\\Work\\Programming\\Modding\\LethalCompany\\ForestGiantMotionsense\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\tgood\\RiderProjects\\LethalCompany-ForestGiantMotionsense\\NuGet.Config",
-        "C:\\Users\\tgood\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "D:\\Users\\Tanner\\Desktop\\Work\\Programming\\Modding\\LethalCompany\\ForestGiantMotionsense\\NuGet.Config",
+        "C:\\Users\\tgood.DESKTOP-DK3AJDA\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.1"
@@ -2747,7 +2747,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -2756,7 +2757,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.321\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
       }
     }
   }
