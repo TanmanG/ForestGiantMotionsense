@@ -2,7 +2,7 @@
 
 ## **Add a little counterplay to Forest Giants!**
 
-**This mod makes Forest Giants only act (look at and start chasing) moving players.**
+**This mod makes Forest Giants only act (i.e. look at, start chasing) moving players.**
 
 It's frustrating to have to hike a mile back with 80lbs of scrap, only to get stuck between a rock and a Forest Giant. You're left either having to strip down to an empty inventory and flee, or accept your fate and be taken.
 
