@@ -1,6 +1,6 @@
 {
     "name": "Forest_Giant_Motionsense",
-    "version_number": "1.0.3",
+    "version_number": "1.0.2",
     "website_url": "https://github.com/TanmanG/LethalCompany_ForestGiantMotionsense",
     "description": "Make forest giants only sense motion outside of chases!",
     "dependencies": ["BepInEx-BepInExPack-5.4.2100"]

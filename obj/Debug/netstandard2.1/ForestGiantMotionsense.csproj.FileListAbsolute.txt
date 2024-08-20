@@ -20,3 +20,4 @@ C:\Users\tgood\RiderProjects\LethalCompany-ForestGiantMotionsense\obj\Debug\nets
 C:\Users\tgood\RiderProjects\LethalCompany-ForestGiantMotionsense\obj\Debug\netstandard2.1\ForestGiantMotionsense.csproj.CoreCompileInputs.cache
 C:\Users\tgood\RiderProjects\LethalCompany-ForestGiantMotionsense\obj\Debug\netstandard2.1\ForestGiantMotionsense.dll
 C:\Users\tgood\RiderProjects\LethalCompany-ForestGiantMotionsense\obj\Debug\netstandard2.1\ForestGiantMotionsense.pdb
+C:\Users\tgood\RiderProjects\LethalCompany-ForestGiantMotionsense\obj\Debug\netstandard2.1\ForestGiantMotionsense.sourcelink.json

@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCopyrightAttribute("CC BY-NC-SA")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("A Harmony patch to adjust Forest Giant AI to only detect motion.")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+884e96a4438d7ff5cff13942e224a52cc46655dc")]
 [assembly: System.Reflection.AssemblyProductAttribute("ForestGiantMotionsense")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ForestGiantMotionsense")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -15,7 +15,7 @@ Send me a message on Discord @tanmang, or an email at mangomango.dev@gmail.com
 
 
 
-Tested working for V49. Incompatible with anything that considerably modifies/replaces/skips ForestGiantAI.SearchForPlayers() and PlayerControllerB.UpdatePlayerPositionClientRpc().
+Tested working for V61. Incompatible with anything that considerably modifies/replaces/skips ForestGiantAI.SearchForPlayers() and PlayerControllerB.UpdatePlayerPositionClientRpc().
 
 
 
